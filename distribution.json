@@ -1,0 +1,372 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "gingvalley-1.21.1",
+      "name": "깅밸리",
+      "description": "깅밸리  Minecraft 1.21.1 (Fabric v0.16.14)",
+      "icon": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/serverIMG.png",
+      "version": "1.0.0",
+      "address": "rascal7.kro.kr",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "9dc56b0dbb98c3802b174f253a4b49d1",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/versions/1.21.1-fabric-0.16.14/1.21.1-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:6.1.12@jar",
+          "name": "AmbientSounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 83889016,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/AmbientSounds_FABRIC_v6.1.12_mc1.21.1.jar",
+            "MD5": "ee562e59a35c4275d3200d18dbd301fb"
+          }
+        },
+        {
+          "id": "eu.midnightdust:blur:5.0.0-hotfix.1@jar",
+          "name": "Blur+ (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 94161,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/blur-fabric-5.0.0-hotfix.1+1.21.1.jar",
+            "MD5": "22c58b28feaac59315531735d85c90c3"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.2@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163711,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/caramelChat-mc1.21.1-fabric-1.2.2.jar",
+            "MD5": "59c8ae912459442c192ff5537bf17f7a"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.18@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79056,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/chat_heads-0.13.18-fabric-1.21.jar",
+            "MD5": "4356a7ff48293406656baaa3c7f3809a"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.13.5@jar",
+          "name": "CreativeCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1238280,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/CreativeCore_FABRIC_v2.13.5_mc1.21.1.jar",
+            "MD5": "f430dddfef34aadfd92161c22113683c"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.5@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 191151,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar",
+            "MD5": "c2ef97d432f7a9291c7ebd47f704cc60"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444709,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/entity_model_features_fabric_1.21.1-2.4.1.jar",
+            "MD5": "0dc5775f29f779b17cbf03d42c1a670e"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 649930,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/entity_texture_features_fabric_1.21.1-6.2.9.jar",
+            "MD5": "4baf4440a9210304f2cd133e5673da33"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.8.1@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 468222,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/entityculling-fabric-1.8.1-mc1.21.jar",
+            "MD5": "04c42519fa25f9f8618d4262fc191c52"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.4+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2423497,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/fabric-api-0.116.4+1.21.1.jar",
+            "MD5": "aa1660d1af25eb18790182753f977615"
+          }
+        },
+        {
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.16.4@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 167591,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/fallingleaves-1.16.4+1.21.1.jar",
+            "MD5": "5863e61089ada4104ec0e8b25992a33d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:4.1.3+1.21.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1049586,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/lambdynamiclights-4.1.3+1.21.1.jar",
+            "MD5": "f637fde20ab96dff957560c5d705559b"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.0+mc1.21.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 771768,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/lithium-fabric-0.15.0+mc1.21.1.jar",
+            "MD5": "319d83e396c1a1227bcb4451d79e3336"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.24.1+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 460253,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/modernfix-fabric-5.24.1+mc1.21.1.jar",
+            "MD5": "cde67f59a06deeab55561a555a16b4a1"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.10.1@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 835481,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/notenoughanimations-fabric-1.10.1-mc1.21.jar",
+            "MD5": "f1592139503bdbd771a701ce600f303e"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.11.0+1.21@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5689995,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/PresenceFootsteps-1.11.0+1.21.jar",
+            "MD5": "22a1ddd1a3c56918a68825c69c618710"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.8.1@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 868251,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/skinlayers3d-fabric-1.8.1-mc1.21.jar",
+            "MD5": "a1eb74c961b7364e28100e68da19e266"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.21.1-1.4.12@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 203213,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/sound-physics-remastered-fabric-1.21.1-1.4.12.jar",
+            "MD5": "0a363177875a1d6583aefb371fa19ccf"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6608082,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.5.30.jar",
+            "MD5": "ad948d180235434d829ce8efc0fa9a16"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.6@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1741254,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/Xaeros_Minimap_25.2.6_Fabric_1.21.jar",
+            "MD5": "b5af8349131a1a04e2da09ad678822f3"
+          }
+        },
+        {
+          "id": "BSL_v10.0.zip",
+          "name": "BSL_v10.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1121678,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/files/shaderpacks/BSL_v10.0.zip",
+            "MD5": "a4d53a8d2a97d99e4e9ebc16eae7a39c",
+            "path": "shaderpacks/BSL_v10.0.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

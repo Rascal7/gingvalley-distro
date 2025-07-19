@@ -1,0 +1,29 @@
+{
+  "$schema": "file:///D:/helios/gingvalley/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "깅밸리",
+    "description": "깅밸리  Minecraft 1.21.1 (Fabric v0.16.14)",
+    "icon": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/serverIMG.png",
+    "address": "rascal7.kro.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.14"
+  },
+  "untrackedFiles": [
+	{
+		"appliesTo": ["files"],
+		"patterns": [
+		  "options.txt",
+		  "servers.dat"
+		]
+	}
+  ]
+}
