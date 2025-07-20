@@ -12,7 +12,7 @@
       "name": "깅밸리",
       "description": "깅밸리  Minecraft 1.21.1 (Fabric v0.16.14)",
       "icon": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/serverIMG.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "rascal7.kro.kr",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -353,6 +353,27 @@
             "size": 1741254,
             "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/fabricmods/required/Xaeros_Minimap_25.2.6_Fabric_1.21.jar",
             "MD5": "b5af8349131a1a04e2da09ad678822f3"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5691,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 12423,
+            "url": "https://raw.githubusercontent.com/Rascal7/gingvalley-distro/main/servers/gingvalley-1.21.1/files/servers.dat",
+            "MD5": "bb6a3ab0409321d34d80b21d1f451b4c",
+            "path": "servers.dat"
           }
         },
         {
